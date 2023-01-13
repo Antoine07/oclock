@@ -2,7 +2,7 @@ import React from 'react';
 import FormConvert from './Form/Form';
 import { Container, Grid } from './Grid';
 
-const Convert = ({history}) => {
+function Convert({history}) {
   return (
     <Container>
       <Grid>
